@@ -139,6 +139,7 @@ This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 This project uses very minimal structure based. Inside src folder only allowed to have folder pages and components. any other folder will be restricted.
 
 allowed structure
+src/api this folder will be created automatically by running npm run codegen
 src/pages
 src/components
 

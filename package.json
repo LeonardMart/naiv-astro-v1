@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@leomart/clean-astro": "github:LeonardMart/clean-astro-packages",
-    "astro": "^5.17.1"
+    "astro": "^5.17.1",
+    "axios": "^1.13.4"
   }
 }
