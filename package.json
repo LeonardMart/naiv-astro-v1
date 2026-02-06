@@ -10,8 +10,13 @@
     "codegen": "npx @naiv/codegen-axios-client -d design -o src/api"
   },
   "dependencies": {
+    "@astrojs/react": "^4.4.2",
     "@leomart/clean-astro": "github:LeonardMart/clean-astro-packages",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
     "astro": "^5.17.1",
-    "axios": "^1.13.4"
+    "axios": "^1.13.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }

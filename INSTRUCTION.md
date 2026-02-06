@@ -171,6 +171,22 @@ wrong: src/pages/profile/index.astro
 wrong: src/pages/transaction/index.astro
 
 
+### Islands
+
+This project uses [ASTRO Island](https://docs.astro.build/en/concepts/islands/). For this project use React as islands component. Islands component will be loaded on client side. Islands needed for components that require heavy js function to be executed on client side.
+
+example:
+```
+---
+import Button from "../components/Button.tsx";
+---
+
+<div>
+    <h1>Island</h1>
+    <Button client:load />
+</div>
+```
+
 <!-- Now that you have two routes you can use a `Link` component to navigate between them.
 
 #### Adding Links
