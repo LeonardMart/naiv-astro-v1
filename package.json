@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "codegen": "npx @naiv/codegen-axios-client -d design -o src/api"
   },
   "dependencies": {
     "@leomart/clean-astro": "github:LeonardMart/clean-astro-packages",
