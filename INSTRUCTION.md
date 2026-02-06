@@ -134,15 +134,41 @@ Welcome to your new TanStack app! this project mainly contains boilerplate for T
 
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
 
+### Project structure
+
+This project uses very minimal structure based. Inside src folder only allowed to have folder pages and components. any other folder will be restricted.
+
+allowed structure
+src/pages
+src/components
+
+restricted structure
+src/assets
+src/icon
+etc
+
 ### Routing
 
 This project uses [ASTRO Routing](https://docs.astro.build/en/guides/routing/). The initial setup is a file based router. Which means that the routes are managed as files in `src/pages`.
+
 
 #### Adding A Route
 
 To add a new route to your application just add another a new file in the `./src/pages` directory.
 
-NEXT will automatically generate the content of the route file for you.
+This project uses flat page routing.
+
+
+example
+correct: src/pages/about.astro
+correct: src/pages/profile.astro
+correct: src/pages/transaction.astro
+
+wrong: src/pages/about/index.astro
+wrong: src/pages/profile/[id].astro
+wrong: src/pages/profile/index.astro
+wrong: src/pages/transaction/index.astro
+
 
 <!-- Now that you have two routes you can use a `Link` component to navigate between them.
 
